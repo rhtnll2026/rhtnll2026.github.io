@@ -40,6 +40,7 @@ jobs:
           fi
         env:
           JEKYLL_ENV: production
+          LANG: C.UTF-8   # Exams/ has non-ASCII (Chinese) folder names
 
       - name: Upload artifact
         if: github.event_name != 'pull_request'
