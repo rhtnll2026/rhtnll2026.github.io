@@ -3,6 +3,7 @@ nav_home:        { en: "Home",            zh: "首页" }
 nav_archive:     { en: "Archive",         zh: "归档" }
 nav_tags:        { en: "Tags",            zh: "标签" }
 nav_about:       { en: "About",           zh: "关于" }
+nav_exams:       { en: "Exams",           zh: "真题" }
 hello:           { en: "Hello, I'm",      zh: "你好，我是" }
 tagline:         { en: "Notes, ideas & things I'm learning", zh: "笔记、想法，以及我正在学的东西" }
 description:     { en: "A personal blog — writing about code, tools, and whatever I'm curious about this week.", zh: "一个个人博客——写代码、工具，以及这周让我好奇的一切。" }
