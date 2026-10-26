@@ -40,7 +40,7 @@ jobs:
           fi
         env:
           JEKYLL_ENV: production
-          LANG: C.UTF-8   # Exams/ has non-ASCII (Chinese) folder names
+          LANG: C.UTF-8   # build file paths with non-ASCII (e.g. Chinese) names on any runner locale
 
       - name: Upload artifact
         if: github.event_name != 'pull_request'
