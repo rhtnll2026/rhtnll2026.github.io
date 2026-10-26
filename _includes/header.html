@@ -8,7 +8,8 @@
       {%- assign path = page.url -%}
       <a href="{{ '/' | relative_url }}" {% if path == '/' %}aria-current="page"{% endif %}>{% include t.html key="nav_home" %}</a>
       <a href="{{ '/archive/' | relative_url }}" {% if path == '/archive/' %}aria-current="page"{% endif %}>{% include t.html key="nav_archive" %}</a>
-      <a href="{{ '/tags/' | relative_url }}" {% if path == '/tags/' %}aria-current="page"{% endif %}>{% include t.html key="nav_tags" %}</a>
+      <a class="nav-tags" href="{{ '/tags/' | relative_url }}" {% if path == '/tags/' %}aria-current="page"{% endif %}>{% include t.html key="nav_tags" %}</a>
+      <a href="/Exams/">{% include t.html key="nav_exams" %}</a>
       <a href="{{ '/about/' | relative_url }}" {% if path == '/about/' %}aria-current="page"{% endif %}>{% include t.html key="nav_about" %}</a>
       {%- if page.collection == "posts" -%}{% include translation.html %}{%- endif -%}
       <button class="lang-toggle" type="button"

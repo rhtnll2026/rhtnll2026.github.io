@@ -466,6 +466,14 @@ a:hover { color: var(--accent); }
 
 @media (max-width: 420px) {
   .site-nav a:first-child { display: none; } /* the logo already links home */
+  .site-nav .nav-tags { display: none; } /* tags stay reachable from every post */
+  .site-nav { gap: 0; }
+  .site-nav a { padding: 6px 6px; }
+}
+
+@media (max-width: 340px) {
+  .site-nav a { padding: 6px 4px; }
+  .lang-toggle { min-width: 0; padding: 0 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
